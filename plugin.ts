@@ -1508,7 +1508,7 @@ function buildDeliverBody(
   return {
     ...base,
     openSpaceId: `dtv1.card//IM_ROBOT.${target.userId}`,
-    imRobotOpenDeliverModel: { spaceType: 'IM_ROBOT' },
+    imRobotOpenDeliverModel: { spaceType: 'IM_ROBOT', robotCode },
   };
 }
 
